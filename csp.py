@@ -16,6 +16,8 @@ while(1):
     cv.imshow('frame',frame)
     cv.imshow('mask',mask)
     cv.imshow('res',res)
+
+    
     k = cv.waitKey(5) & 0xFF
     if k == 40:
         break
